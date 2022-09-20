@@ -17,9 +17,9 @@ wget -q $CC_ZIP
 unzip -q $CC_ZIPNAME
 # set default to solarized dark
 sed -i 's/theme:"classic"/theme:"solarizedDark"/g' /app/assets/main.js
-# put my mark on it
-sed -i 's/\(<span>Version [0-9\.]*\)/\1: dark cyberchef<\/a>/' /app/index.html
 # make it index.html so it's easier for nginx to point to:
 mv $CC_RELEASE.html index.html
+# put my mark on it for fun:
+sed -i 's/\(<span>Version [0-9\.]*\)/\1: delivered by <a href="https:\/\/github.com\/n-bs-p\/dark-cyberchef">dark cyberchef<\/a>/' /app/index.html
 # remove original zip
 rm $CC_ZIPNAME
