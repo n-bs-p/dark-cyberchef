@@ -21,4 +21,5 @@ B1[GCP Scheduler] ==> Dockerfile
 1. Build the container: `docker build https://github.com/n-bs-p/dark-cyberchef.git#main -t dark-cyberchef`
 2. Run the container: `docker run --rm -d -p 8080:8080 dark-cyberchef`
 3. Navigate to http://localhost:8080
+
 Whenever you want to get an updated version of CyberChef, just rebuild it from step 1.
