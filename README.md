@@ -1,5 +1,5 @@
 # dark-cyberchef
-This is a Dockerfile to create a lightweight [CyberChef](https://github.com/gchq/CyberChef/) container with a default solarized dark theme :)
+This is a Dockerfile to create a lightweight [CyberChef](https://github.com/gchq/CyberChef/) container with a default solarized dark theme :).
 
 This is regularly built and deployed on Google Cloud here: https://dark-cyberchef-lxapdonpma-nw.a.run.app
 
